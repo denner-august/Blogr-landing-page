@@ -1,0 +1,42 @@
+@media screen and (max-width: 933px) {
+  body #menu-open {
+    display: initial;
+  }
+  select {
+    display: none;
+  }
+  #registro {
+    display: none;
+  }
+  #menu-open {
+    cursor: pointer;
+    height: 25px;
+  }
+  #titulo #buttons_plataform button {
+    border: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header {
+    padding: 0px;
+    padding-top: 25px;
+    height: 90vh;
+  }
+  header #titulo {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header #titulo h1, header #titulo p {
+    text-align: center;
+  }
+  header #titulo #buttons_plataform {
+    margin: 0px;
+    text-align: center;
+  }
+  header #titulo #buttons_plataform button {
+    margin: 5px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

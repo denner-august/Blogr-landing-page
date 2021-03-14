@@ -1,0 +1,104 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fae3d9;
+  font-family: 'Roboto', sans-serif;
+}
+
+body #menu-open {
+  display: none;
+}
+
+header {
+  padding: 30px 100px;
+  background-image: url(../desing/images/images/bg-pattern-intro.svg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  border-bottom-left-radius: 50px;
+  width: 100%;
+  background-color: #FF7768;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header img {
+  height: 30px;
+}
+
+header button {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+
+header button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+
+header select {
+  padding: 15px;
+  background-color: #ff6a6200;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+header select:hover {
+  background-color: white;
+  color: black;
+}
+
+header #titulo {
+  margin-top: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 100%;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 50px;
+}
+
+header #titulo #buttons_plataform {
+  margin: 10px;
+}
+
+main {
+  margin-top: 50px;
+}
+
+main h1 {
+  text-align: center;
+  color: #252525;
+}
+/*# sourceMappingURL=css.css.map */

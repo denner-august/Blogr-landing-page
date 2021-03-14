@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 227, 217);
+    font-family: 'Roboto', sans-serif;
+
+    #menu-open{
+        display: none;
+    }
+}
+
+header{
+    padding: 30px 100px;
+    background-image: url(../desing/images/images/bg-pattern-intro.svg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    border-bottom-left-radius: 50px;
+    width: 100%;
+    background-color: #FF7768;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    img{
+        height: 30px;
+    }
+
+    button{
+        background-color: rgba(255, 255, 255, 0);
+        padding: 20px 30px;
+        text-align: center;
+        border-radius: 20px;
+        border:none;
+        color: white;
+        
+    }
+    button:hover{
+        background-color: white;
+        cursor: pointer;
+        color: black;
+
+    }
+
+    select{
+        padding: 15px;
+        background-color: #ff6a6200;
+        border: none;
+        color: white;
+        font-size: 15px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    select:hover{
+        background-color: white;
+        color: black;
+    }
+
+    #titulo{
+        margin-top: 20vh;
+        display: flex;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        flex-direction: column;
+        line-height: 50px;
+        #buttons_plataform{
+            margin: 10px;
+        }
+    }
+   
+}
+
+main{
+    margin-top: 50px;
+    h1{
+        text-align: center;
+        color: rgb(37, 37, 37);
+    }
+}

@@ -1,0 +1,63 @@
+@media screen and (max-width:933px){
+
+    body{
+        #menu-open{
+            display: initial;
+        }
+    }
+
+
+
+    select{
+        display: none;
+    }
+
+    #registro{
+        display: none;
+    }
+
+    #menu-open{
+        cursor: pointer;
+        height: 25px;
+    }
+
+    #titulo{
+        #buttons_plataform{
+            button{
+                
+                border: 1px solid white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:550px){
+
+    header{
+        padding: 0px;
+        padding-top: 25px;
+        height: 90vh;
+
+
+        #titulo{
+            align-items: center;
+            h1,p{
+                text-align: center;
+            }
+    
+            #buttons_plataform{
+                margin: 0px;
+                text-align: center;
+                button{
+                    margin:5px
+                }
+                
+            }
+        }
+    }
+
+    
+
+
+
+}
