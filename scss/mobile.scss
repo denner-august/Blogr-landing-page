@@ -31,6 +31,38 @@
     }
 }
 
+@media screen and (max-width: 780px){
+    main{
+
+        section{
+            margin: 5px;
+            padding:0px;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+
+            img{
+                height: auto;
+                max-width: auto;
+                max-height: auto;
+                min-height: 250px;
+                min-width: 300px;
+                padding-top: 50px;
+            }
+
+            div{
+                width: 100%;
+                padding-top: 30px;
+                height: auto;
+            }
+
+        }
+    }
+}
+
+
+
 @media screen and (max-width:550px){
 
     header{

@@ -81,8 +81,46 @@ header{
 
 main{
     margin-top: 50px;
+    height: auto;
+   
     h1{
         text-align: center;
         color: rgb(37, 37, 37);
+        padding-top: 50px;
     }
+
+    section{
+        padding: 30px;
+        border-radius: 50px;
+        background-color: white;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        
+
+        img{
+           
+            width: 40vw;
+            height: 500px;
+            padding-top: 50px;
+        }
+
+        div{
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            height: auto;
+            text-align: center;
+            width: 50vw;
+            height: 500px;
+            
+        }
+
+        
+    }
+
+    
 }

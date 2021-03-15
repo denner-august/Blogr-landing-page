@@ -95,10 +95,57 @@ header #titulo #buttons_plataform {
 
 main {
   margin-top: 50px;
+  height: auto;
 }
 
 main h1 {
   text-align: center;
   color: #252525;
+  padding-top: 50px;
+}
+
+main section {
+  padding: 30px;
+  border-radius: 50px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+main section img {
+  width: 40vw;
+  height: 500px;
+  padding-top: 50px;
+}
+
+main section div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  text-align: center;
+  width: 50vw;
+  height: 500px;
 }
 /*# sourceMappingURL=css.css.map */
