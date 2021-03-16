@@ -104,7 +104,7 @@ main h1 {
   padding-top: 50px;
 }
 
-main section {
+main #designed {
   padding: 30px;
   border-radius: 50px;
   background-color: white;
@@ -126,13 +126,12 @@ main section {
   margin-top: 40px;
 }
 
-main section img {
+main #designed img {
   width: 40vw;
-  height: 500px;
   padding-top: 50px;
 }
 
-main section div {
+main #designed div {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -147,5 +146,81 @@ main section div {
   text-align: center;
   width: 50vw;
   height: 500px;
+}
+
+#phone {
+  margin-top: 90px;
+  background-color: #1a3b83;
+  height: 300px;
+  border-radius: 0px 80px 0px 80px;
+  background-image: url(../desing/images/images/bg-pattern-circles.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#phone img {
+  position: relative;
+  height: 450px;
+}
+
+#phone div {
+  width: 50vw;
+  color: white;
+}
+
+#computador {
+  margin: 100px 0px;
+  background-color: white;
+  border-radius: 0px 100px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+  padding-right: 50px;
+}
+
+#computador img {
+  height: auto;
+  right: 20%;
+  position: relative;
+  width: 60vw;
+}
+
+#computador div {
+  width: 50vw;
+}
+
+footer {
+  height: auto;
+  padding: 15px 0px;
+  background-color: #FF7768;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer img {
+  height: 70px;
 }
 /*# sourceMappingURL=css.css.map */

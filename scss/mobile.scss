@@ -33,8 +33,7 @@
 
 @media screen and (max-width: 780px){
     main{
-
-        section{
+        #designed{
             margin: 5px;
             padding:0px;
             display: flex;
@@ -44,10 +43,8 @@
 
             img{
                 height: auto;
-                max-width: auto;
-                max-height: auto;
-                min-height: 250px;
-                min-width: 300px;
+                
+                min-width: 200px;
                 padding-top: 50px;
             }
 
@@ -58,7 +55,51 @@
             }
 
         }
+
+        #computador{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-right: 0;
+            padding-bottom: 30px;
+            border-radius: 100px 0px;
+
+            img{
+                right: 0%;
+                margin-bottom: 20px;
+            }
+
+            div{
+                width: 80vw;
+            }
+        }
+
+
+        
     }
+
+    #phone{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: auto;
+        padding-top: 50px;
+        margin-top: 10px;
+
+        div{
+            width: 80vw;
+        }
+
+        img{
+            position: initial;
+            height: auto;
+            width: 80vw;
+        }
+    }
+
+  
+
 }
 
 
@@ -85,6 +126,14 @@
                 }
                 
             }
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        img{
+            margin:20px 0px;
         }
     }
 
